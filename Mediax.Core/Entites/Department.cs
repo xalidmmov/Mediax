@@ -11,6 +11,7 @@ namespace Mediax.Core.Entites
 	{
 		public string Name { get; set; } 
 		
-		public IEnumerable<Service> Services { get; set; }
+		public IEnumerable<Service>? Services { get; set; }
+		public IEnumerable<Doctor>? Doctors { get; set; }
 	}
 }

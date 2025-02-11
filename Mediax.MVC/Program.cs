@@ -1,3 +1,5 @@
+using Mediax.BL;
+
 namespace Mediax.MVC
 {
 	public class Program
@@ -8,7 +10,7 @@ namespace Mediax.MVC
 
 			// Add services to the container.
 			builder.Services.AddControllersWithViews();
-
+			builder.Services.AddServices();
 			var app = builder.Build();
 
 			// Configure the HTTP request pipeline.

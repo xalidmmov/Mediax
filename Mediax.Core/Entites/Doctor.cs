@@ -9,5 +9,10 @@ namespace Mediax.Core.Entites
 {
 	public class Doctor:BaseEntity
 	{
+		public string FullName { get; set; }
+		public string Specialization { get; set; }
+		public string ImageUrl { get; set; } 
+		public Guid DepartmentId { get; set; }  
+		public Department Department { get; set; }
 	}
 }

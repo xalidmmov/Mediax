@@ -3,56 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\Asus\\source\\repos\\Mediax\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3A112EBD-E3DD-4381-8115-69E34F112D96}|Mediax.Core\\Mediax.Core.csproj|c:\\users\\asus\\source\\repos\\mediax\\mediax.core\\entites\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A112EBD-E3DD-4381-8115-69E34F112D96}|Mediax.Core\\Mediax.Core.csproj|solutionrelative:mediax.core\\entites\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A112EBD-E3DD-4381-8115-69E34F112D96}|Mediax.Core\\Mediax.Core.csproj|c:\\users\\asus\\source\\repos\\mediax\\mediax.core\\entites\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A112EBD-E3DD-4381-8115-69E34F112D96}|Mediax.Core\\Mediax.Core.csproj|solutionrelative:mediax.core\\entites\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A112EBD-E3DD-4381-8115-69E34F112D96}|Mediax.Core\\Mediax.Core.csproj|c:\\users\\asus\\source\\repos\\mediax\\mediax.core\\entites\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A112EBD-E3DD-4381-8115-69E34F112D96}|Mediax.Core\\Mediax.Core.csproj|solutionrelative:mediax.core\\entites\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A112EBD-E3DD-4381-8115-69E34F112D96}|Mediax.Core\\Mediax.Core.csproj|c:\\users\\asus\\source\\repos\\mediax\\mediax.core\\entites\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A112EBD-E3DD-4381-8115-69E34F112D96}|Mediax.Core\\Mediax.Core.csproj|solutionrelative:mediax.core\\entites\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A112EBD-E3DD-4381-8115-69E34F112D96}|Mediax.Core\\Mediax.Core.csproj|c:\\users\\asus\\source\\repos\\mediax\\mediax.core\\entites\\about.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A112EBD-E3DD-4381-8115-69E34F112D96}|Mediax.Core\\Mediax.Core.csproj|solutionrelative:mediax.core\\entites\\about.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A112EBD-E3DD-4381-8115-69E34F112D96}|Mediax.Core\\Mediax.Core.csproj|c:\\users\\asus\\source\\repos\\mediax\\mediax.core\\entites\\apointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A112EBD-E3DD-4381-8115-69E34F112D96}|Mediax.Core\\Mediax.Core.csproj|solutionrelative:mediax.core\\entites\\apointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A112EBD-E3DD-4381-8115-69E34F112D96}|Mediax.Core\\Mediax.Core.csproj|c:\\users\\asus\\source\\repos\\mediax\\mediax.core\\entites\\branch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A112EBD-E3DD-4381-8115-69E34F112D96}|Mediax.Core\\Mediax.Core.csproj|solutionrelative:mediax.core\\entites\\branch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A112EBD-E3DD-4381-8115-69E34F112D96}|Mediax.Core\\Mediax.Core.csproj|c:\\users\\asus\\source\\repos\\mediax\\mediax.core\\entites\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A112EBD-E3DD-4381-8115-69E34F112D96}|Mediax.Core\\Mediax.Core.csproj|solutionrelative:mediax.core\\entites\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A112EBD-E3DD-4381-8115-69E34F112D96}|Mediax.Core\\Mediax.Core.csproj|c:\\users\\asus\\source\\repos\\mediax\\mediax.core\\entites\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A112EBD-E3DD-4381-8115-69E34F112D96}|Mediax.Core\\Mediax.Core.csproj|solutionrelative:mediax.core\\entites\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D1728401-68C4-416C-93BC-B9435CF1B361}|Mediax.MVC\\Mediax.MVC.csproj|c:\\users\\asus\\source\\repos\\mediax\\mediax.mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1728401-68C4-416C-93BC-B9435CF1B361}|Mediax.MVC\\Mediax.MVC.csproj|solutionrelative:mediax.mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{33B44ECC-D779-4C78-B151-83E97C8C5FA0}|Mediax.Dal\\Mediax.Dal.csproj|c:\\users\\asus\\source\\repos\\mediax\\mediax.dal\\dal\\mediaxbdcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{33B44ECC-D779-4C78-B151-83E97C8C5FA0}|Mediax.Dal\\Mediax.Dal.csproj|solutionrelative:mediax.dal\\dal\\mediaxbdcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A112EBD-E3DD-4381-8115-69E34F112D96}|Mediax.Core\\Mediax.Core.csproj|c:\\users\\asus\\source\\repos\\mediax\\mediax.core\\entites\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A112EBD-E3DD-4381-8115-69E34F112D96}|Mediax.Core\\Mediax.Core.csproj|solutionrelative:mediax.core\\entites\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3A112EBD-E3DD-4381-8115-69E34F112D96}|Mediax.Core\\Mediax.Core.csproj|c:\\users\\asus\\source\\repos\\mediax\\mediax.core\\entites\\sliderimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A112EBD-E3DD-4381-8115-69E34F112D96}|Mediax.Core\\Mediax.Core.csproj|solutionrelative:mediax.core\\entites\\sliderimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33B44ECC-D779-4C78-B151-83E97C8C5FA0}|Mediax.Dal\\Mediax.Dal.csproj|c:\\users\\asus\\source\\repos\\mediax\\mediax.dal\\mediax.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{33B44ECC-D779-4C78-B151-83E97C8C5FA0}|Mediax.Dal\\Mediax.Dal.csproj|solutionrelative:mediax.dal\\mediax.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{3A112EBD-E3DD-4381-8115-69E34F112D96}|Mediax.Core\\Mediax.Core.csproj|c:\\users\\asus\\source\\repos\\mediax\\mediax.core\\entites\\pageslider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A112EBD-E3DD-4381-8115-69E34F112D96}|Mediax.Core\\Mediax.Core.csproj|solutionrelative:mediax.core\\entites\\pageslider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A722DA0A-6214-414A-BFA5-F4B769A813C3}|Mediax.BL\\Mediax.BL.csproj|c:\\users\\asus\\source\\repos\\mediax\\mediax.bl\\mediax.bl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{A722DA0A-6214-414A-BFA5-F4B769A813C3}|Mediax.BL\\Mediax.BL.csproj|solutionrelative:mediax.bl\\mediax.bl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{33B44ECC-D779-4C78-B151-83E97C8C5FA0}|Mediax.Dal\\Mediax.Dal.csproj|c:\\users\\asus\\source\\repos\\mediax\\mediax.dal\\configurations\\pagesliderconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33B44ECC-D779-4C78-B151-83E97C8C5FA0}|Mediax.Dal\\Mediax.Dal.csproj|solutionrelative:mediax.dal\\configurations\\pagesliderconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33B44ECC-D779-4C78-B151-83E97C8C5FA0}|Mediax.Dal\\Mediax.Dal.csproj|c:\\users\\asus\\source\\repos\\mediax\\mediax.dal\\configurations\\doctorconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33B44ECC-D779-4C78-B151-83E97C8C5FA0}|Mediax.Dal\\Mediax.Dal.csproj|solutionrelative:mediax.dal\\configurations\\doctorconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33B44ECC-D779-4C78-B151-83E97C8C5FA0}|Mediax.Dal\\Mediax.Dal.csproj|c:\\users\\asus\\source\\repos\\mediax\\mediax.dal\\configurations\\categoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33B44ECC-D779-4C78-B151-83E97C8C5FA0}|Mediax.Dal\\Mediax.Dal.csproj|solutionrelative:mediax.dal\\configurations\\categoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33B44ECC-D779-4C78-B151-83E97C8C5FA0}|Mediax.Dal\\Mediax.Dal.csproj|c:\\users\\asus\\source\\repos\\mediax\\mediax.dal\\configurations\\departmentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33B44ECC-D779-4C78-B151-83E97C8C5FA0}|Mediax.Dal\\Mediax.Dal.csproj|solutionrelative:mediax.dal\\configurations\\departmentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,175 +42,110 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Apointment.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.Core\\Entites\\Apointment.cs",
-              "RelativeDocumentMoniker": "Mediax.Core\\Entites\\Apointment.cs",
-              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.Core\\Entites\\Apointment.cs",
-              "RelativeToolTip": "Mediax.Core\\Entites\\Apointment.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.MVC\\Program.cs",
+              "RelativeDocumentMoniker": "Mediax.MVC\\Program.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.MVC\\Program.cs",
+              "RelativeToolTip": "Mediax.MVC\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T19:26:31.833Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.Core\\Entites\\Product.cs",
-              "RelativeDocumentMoniker": "Mediax.Core\\Entites\\Product.cs",
-              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.Core\\Entites\\Product.cs",
-              "RelativeToolTip": "Mediax.Core\\Entites\\Product.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T19:26:06.764Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.Core\\Entites\\Category.cs",
-              "RelativeDocumentMoniker": "Mediax.Core\\Entites\\Category.cs",
-              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.Core\\Entites\\Category.cs",
-              "RelativeToolTip": "Mediax.Core\\Entites\\Category.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T19:25:27.345Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "MediaxBdContext.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.Dal\\DAL\\MediaxBdContext.cs",
-              "RelativeDocumentMoniker": "Mediax.Dal\\DAL\\MediaxBdContext.cs",
-              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.Dal\\DAL\\MediaxBdContext.cs",
-              "RelativeToolTip": "Mediax.Dal\\DAL\\MediaxBdContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T16:01:42.191Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Branch.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.Core\\Entites\\Branch.cs",
-              "RelativeDocumentMoniker": "Mediax.Core\\Entites\\Branch.cs",
-              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.Core\\Entites\\Branch.cs",
-              "RelativeToolTip": "Mediax.Core\\Entites\\Branch.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAcwA8AAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T15:51:26.349Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Contact.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.Core\\Entites\\Contact.cs",
-              "RelativeDocumentMoniker": "Mediax.Core\\Entites\\Contact.cs",
-              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.Core\\Entites\\Contact.cs",
-              "RelativeToolTip": "Mediax.Core\\Entites\\Contact.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T15:51:11.593Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "About.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.Core\\Entites\\About.cs",
-              "RelativeDocumentMoniker": "Mediax.Core\\Entites\\About.cs",
-              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.Core\\Entites\\About.cs",
-              "RelativeToolTip": "Mediax.Core\\Entites\\About.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T15:50:59.868Z",
+              "WhenOpened": "2025-02-11T19:37:40.068Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Service.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.Core\\Entites\\Service.cs",
-              "RelativeDocumentMoniker": "Mediax.Core\\Entites\\Service.cs",
-              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.Core\\Entites\\Service.cs",
-              "RelativeToolTip": "Mediax.Core\\Entites\\Service.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAA1wBMAAAAwAAAA",
+              "Title": "PageSlider.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.Core\\Entites\\PageSlider.cs",
+              "RelativeDocumentMoniker": "Mediax.Core\\Entites\\PageSlider.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.Core\\Entites\\PageSlider.cs",
+              "RelativeToolTip": "Mediax.Core\\Entites\\PageSlider.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T15:50:49.372Z",
+              "WhenOpened": "2025-02-11T19:28:42.23Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Department.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.Core\\Entites\\Department.cs",
-              "RelativeDocumentMoniker": "Mediax.Core\\Entites\\Department.cs",
-              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.Core\\Entites\\Department.cs",
-              "RelativeToolTip": "Mediax.Core\\Entites\\Department.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "DocumentIndex": 2,
+              "Title": "SliderImage.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.Core\\Entites\\SliderImage.cs",
+              "RelativeDocumentMoniker": "Mediax.Core\\Entites\\SliderImage.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.Core\\Entites\\SliderImage.cs",
+              "RelativeToolTip": "Mediax.Core\\Entites\\SliderImage.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T15:50:39.045Z",
+              "WhenOpened": "2025-02-11T19:28:32.645Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Doctor.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.Core\\Entites\\Doctor.cs",
-              "RelativeDocumentMoniker": "Mediax.Core\\Entites\\Doctor.cs",
-              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.Core\\Entites\\Doctor.cs",
-              "RelativeToolTip": "Mediax.Core\\Entites\\Doctor.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAACAAAA",
+              "Title": "MediaxBdContext.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.Dal\\DAL\\MediaxBdContext.cs",
+              "RelativeDocumentMoniker": "Mediax.Dal\\DAL\\MediaxBdContext.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.Dal\\DAL\\MediaxBdContext.cs",
+              "RelativeToolTip": "Mediax.Dal\\DAL\\MediaxBdContext.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAA+wBwAAABGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T15:50:19.672Z",
+              "WhenOpened": "2025-02-11T19:26:38.309Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "BaseEntity.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.Core\\Entites\\Common\\BaseEntity.cs",
-              "RelativeDocumentMoniker": "Mediax.Core\\Entites\\Common\\BaseEntity.cs",
-              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.Core\\Entites\\Common\\BaseEntity.cs",
-              "RelativeToolTip": "Mediax.Core\\Entites\\Common\\BaseEntity.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T15:50:09.86Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Mediax.Dal",
-              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.Dal\\Mediax.Dal.csproj",
-              "RelativeDocumentMoniker": "Mediax.Dal\\Mediax.Dal.csproj",
-              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.Dal\\Mediax.Dal.csproj",
-              "RelativeToolTip": "Mediax.Dal\\Mediax.Dal.csproj",
+              "DocumentIndex": 4,
+              "Title": "PageSliderConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.Dal\\Configurations\\PageSliderConfiguration.cs",
+              "RelativeDocumentMoniker": "Mediax.Dal\\Configurations\\PageSliderConfiguration.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.Dal\\Configurations\\PageSliderConfiguration.cs",
+              "RelativeToolTip": "Mediax.Dal\\Configurations\\PageSliderConfiguration.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-02-07T19:20:47.149Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T19:26:27.499Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Mediax.BL",
-              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.BL\\Mediax.BL.csproj",
-              "RelativeDocumentMoniker": "Mediax.BL\\Mediax.BL.csproj",
-              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.BL\\Mediax.BL.csproj",
-              "RelativeToolTip": "Mediax.BL\\Mediax.BL.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-02-07T19:18:54.86Z",
+              "DocumentIndex": 5,
+              "Title": "DoctorConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.Dal\\Configurations\\DoctorConfiguration.cs",
+              "RelativeDocumentMoniker": "Mediax.Dal\\Configurations\\DoctorConfiguration.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.Dal\\Configurations\\DoctorConfiguration.cs",
+              "RelativeToolTip": "Mediax.Dal\\Configurations\\DoctorConfiguration.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAxwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T19:26:17.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DepartmentConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.Dal\\Configurations\\DepartmentConfiguration.cs",
+              "RelativeDocumentMoniker": "Mediax.Dal\\Configurations\\DepartmentConfiguration.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.Dal\\Configurations\\DepartmentConfiguration.cs",
+              "RelativeToolTip": "Mediax.Dal\\Configurations\\DepartmentConfiguration.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T19:26:10.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CategoryConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.Dal\\Configurations\\CategoryConfiguration.cs",
+              "RelativeDocumentMoniker": "Mediax.Dal\\Configurations\\CategoryConfiguration.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.Dal\\Configurations\\CategoryConfiguration.cs",
+              "RelativeToolTip": "Mediax.Dal\\Configurations\\CategoryConfiguration.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T19:26:01.245Z",
               "EditorCaption": ""
             }
           ]

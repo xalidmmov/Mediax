@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Mediax.Core.Entites
 {
-	internal class Apointment
+	public class Apointment
 	{
 	}
 }

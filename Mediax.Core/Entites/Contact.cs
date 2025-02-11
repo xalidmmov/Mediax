@@ -9,7 +9,7 @@ namespace Mediax.Core.Entites
 {
 	public class Contact:BaseEntity
 	{
-		public string MainImageUrl { get; set; }  
-		public List<Branch> Branches { get; set; }
+		
+		public IEnumerable<Branch> Branches { get; set; }
 	}
 }
