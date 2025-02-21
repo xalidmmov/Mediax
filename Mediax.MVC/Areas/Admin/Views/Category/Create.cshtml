@@ -1,0 +1,18 @@
+﻿@using Mediax.BL.ViewModels.Category
+
+
+@model CategoryCreateVM
+<div class="container">
+    <div>
+        <h2>Create Category</h2>
+        <a asp-action="Index" asp-controller="Category">Return List</a>
+    </div>
+    <form method="post" enctype="multipart/form-data">
+        <div class="form-group">
+            <label asp-for="Name">Name</label>
+            <input asp-for="Name" class="form-control" placeholder="Enter Name">
+            <span asp-validation-for="Name" class="form-text text-danger"></span>
+        </div>
+        <button type="submit" class="btn btn-primary">Create</button>
+    </form>
+</div>

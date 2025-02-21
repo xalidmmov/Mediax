@@ -7,9 +7,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace Mediax.Dal.Configurations
 {
-	internal class DepartmentConfiguration : IEntityTypeConfiguration<Department>
+    
+    partial class DepartmentConfiguration : IEntityTypeConfiguration<Department>
 	{
 		public void Configure(EntityTypeBuilder<Department> builder)
 		{

@@ -12,7 +12,7 @@ namespace Mediax.Core.Entites
 		public string FullName { get; set; }
 		public string Specialization { get; set; }
 		public string ImageUrl { get; set; } 
-		public Guid DepartmentId { get; set; }  
+		public int DepartmentId { get; set; }  
 		public Department Department { get; set; }
 	}
 }

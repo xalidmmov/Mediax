@@ -9,7 +9,8 @@ using System.Threading.Tasks;
 
 namespace Mediax.Dal.Configurations
 {
-	public class CategoryConfiguration : IEntityTypeConfiguration<Category>
+   
+    public class CategoryConfiguration : IEntityTypeConfiguration<Category>
 	{
 		public void Configure(EntityTypeBuilder<Category> builder)
 		{

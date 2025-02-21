@@ -10,3 +10,4 @@ C:\Users\Asus\source\repos\Mediax\Mediax.Core\obj\Debug\net8.0\Mediax.Core.dll
 C:\Users\Asus\source\repos\Mediax\Mediax.Core\obj\Debug\net8.0\refint\Mediax.Core.dll
 C:\Users\Asus\source\repos\Mediax\Mediax.Core\obj\Debug\net8.0\Mediax.Core.pdb
 C:\Users\Asus\source\repos\Mediax\Mediax.Core\obj\Debug\net8.0\ref\Mediax.Core.dll
+C:\Users\Asus\source\repos\Mediax\Mediax.Core\obj\Debug\net8.0\Mediax.Core.csproj.AssemblyReference.cache

@@ -1,0 +1,33 @@
+﻿@using Mediax.BL.ViewModels.Service
+@model ServiceCreateVM
+
+<div class="container">
+    <h3>Update Service</h3>
+
+    <form asp-action="Update" asp-controller="Service" method="post" enctype="multipart/form-data">
+        <input type="hidden" asp-for="ServiceImg" />
+
+        <div class="mb-3">
+            <label asp-for="SName" class="form-label">Service Name</label>
+            <input asp-for="SName" class="form-control" />
+            <span asp-validation-for="SName" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="DepartmentId" class="form-label">Department</label>
+            <select asp-for="DepartmentId" asp-items="ViewBag.Departments" class="form-control">
+                <option value="">Select Department</option>
+            </select>
+            <span asp-validation-for="DepartmentId" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="CoverSImage" class="form-label">New Service Icon (Optional)</label>
+            <input asp-for="CoverSImage" type="file" class="form-control" />
+            <span asp-validation-for="CoverSImage" class="text-danger"></span>
+        </div>
+
+        <button type="submit" class="btn btn-warning">Update</button>
+        <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+    </form>
+</div>

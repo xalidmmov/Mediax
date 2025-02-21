@@ -12,7 +12,7 @@ namespace Mediax.BL.ViewModels.Service
 	{
 		[Required, MaxLength(32)]
 		public string SName { get; set; }
-        public Guid DepartmentId { get; set; }
+        public int DepartmentId { get; set; }
         public IFormFile? CoverSImage { get; set; }
 		public string? ServiceImg { get; set; }
 	}

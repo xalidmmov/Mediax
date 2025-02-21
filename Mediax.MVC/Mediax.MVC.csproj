@@ -18,11 +18,4 @@
     <ProjectReference Include="..\Mediax.BL\Mediax.BL.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Areas\Admin\Controllers\" />
-    <Folder Include="Areas\Admin\Views\" />
-    <Folder Include="wwwroot\admin\" />
-    <Folder Include="wwwroot\assets\" />
-  </ItemGroup>
-
 </Project>

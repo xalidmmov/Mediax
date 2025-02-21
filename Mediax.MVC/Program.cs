@@ -1,4 +1,8 @@
 using Mediax.BL;
+using Mediax.Core.Entites;
+using Mediax.Dal.DAL;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 
 namespace Mediax.MVC
 {
@@ -7,7 +11,15 @@ namespace Mediax.MVC
 		public static void Main(string[] args)
 		{
 			var builder = WebApplication.CreateBuilder(args);
+			builder.Services
+				.AddDbContext<MediaxDbContext>(options =>
+				{
+					options.UseSqlServer(builder.Configuration.GetConnectionString("MSSql"));
+				});
 
+			builder.Services.AddIdentity<User, IdentityRole>()
+			  .AddDefaultTokenProviders()
+			  .AddEntityFrameworkStores<MediaxDbContext>();
 			// Add services to the container.
 			builder.Services.AddControllersWithViews();
 			builder.Services.AddServices();
@@ -27,8 +39,11 @@ namespace Mediax.MVC
 			app.UseRouting();
 
 			app.UseAuthorization();
-
-			app.MapControllerRoute(
+            app.MapControllerRoute(
+              name: "areas",
+              pattern: "{area:exists}/{controller=Dashboard}/{action=index}/{id?}"
+              );
+            app.MapControllerRoute(
 				name: "default",
 				pattern: "{controller=Home}/{action=Index}/{id?}");
 

@@ -1,0 +1,54 @@
+﻿@using Mediax.Core.Entites
+@model List<Service>
+
+<div class="container">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <h3>Service List</h3>
+        <a class="btn btn-primary" asp-action="Create" asp-controller="Service">Create New Service</a>
+    </div>
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Image</th>
+                <th>Name</th>
+                <th>Department</th>
+                <th>Created Time</th>
+                <th colspan="2">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model != null && Model.Any())
+            {
+                int count = 1;
+                @foreach (var service in Model)
+                {
+                    <tr>
+                        <td>@count</td>
+                        <td>
+                            <img width="60px" height="60px" src="~/services/imgs/@service.IconUrl" alt="Service Image" />
+                        </td>
+                        <td>@service.Name</td>
+                        <td>@service.Department?.Name</td>
+                        <td>@service.CreatedTime.ToString("dd-MM-yyyy HH:mm")</td>
+                        <td>
+                            <a class="btn btn-warning" asp-action="Update" asp-route-id="@service.Id">Edit</a>
+                        </td>
+                        <td>
+                            <a class="btn btn-danger" asp-action="Delete" asp-route-id="@service.Id"
+                               onclick="return confirm('Are you sure you want to delete this service?');">Delete</a>
+                        </td>
+                    </tr>
+                    count++;
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="7" class="text-center">No services found.</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

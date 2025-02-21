@@ -1,32 +1,53 @@
-using Mediax.MVC.Models;
+
+using Mediax.BL.Services.Abstracts;
+using Mediax.BL.ViewModels.Doctor;
+using Mediax.BL.ViewModels.Home;
+using Mediax.BL.ViewModels.Service;
+using Mediax.Core.Entites;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
 namespace Mediax.MVC.Controllers
 {
-	public class HomeController : Controller
+	public class HomeController(IServiceService _service, IDoctorService _doctorService) : Controller
 	{
-		private readonly ILogger<HomeController> _logger;
 
-		public HomeController(ILogger<HomeController> logger)
-		{
-			_logger = logger;
-		}
 
-		public IActionResult Index()
-		{
-			return View();
-		}
+        public async Task<IActionResult> Index()
+        {
+            var services = await _service.GetAllAsync();
+            var doctors = await _doctorService.GetAllAsync();
 
-		public IActionResult Privacy()
-		{
-			return View();
-		}
+            var homeVM = new HomeVM
+            {
+                Services = services.Select(s => new ServiceVm
+                {
+                    Name = s.Name,
+                    IconUrl = s.IconUrl
+                }).ToList(),
 
-		[ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-		public IActionResult Error()
-		{
-			return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-		}
-	}
+                Doctors = doctors.Select(d => new DoctorVM
+                {
+                    FullName = d.FullName,
+                    Specialization = d.Specialization,
+                    ImageUrl = d.ImageUrl
+                }).ToList()
+            };
+
+            return View(homeVM);
+        }
+        public IActionResult About()
+        {
+            return View();
+        }
+        public IActionResult Service()
+        {
+            return View();
+        }
+        public IActionResult Contact()
+        {
+                return View();
+        }
+
+    }
 }

@@ -12,58 +12,58 @@ using System.Threading.Tasks;
 
 namespace Mediax.BL.Services.Implements
 {
-	public class DepartmentService(MediaxBdContext _context) : IDepartmentService
+	public class DepartmentService(MediaxDbContext _context) : IDepartmentService
 	{
-		//public async Task<bool> Create(DepartmentCreateVM vm)
-		//{
-		//	await _context.AddAsync(new Category
-		//	{
-		//		CName = vm.Name
+		public async Task<bool> Create(DepartmentCreateVM vm)
+		{
+			await _context.AddAsync(new Department
+			{
+				Name = vm.Name
 
-		//	});
-		//	await _context.SaveChangesAsync();
-		//	return true;
-		//}
+			});
+			await _context.SaveChangesAsync();
+			return true;
+		}
 
-		//public async Task<bool> Delete(int? id)
-		//{
-		//	var data = await _context.Categories.FirstOrDefaultAsync(c => c.Id == id);
-		//	if (data != null)
-		//	{
-		//		_context.Categories.Remove(data);
-		//		await _context.SaveChangesAsync();
-		//		return true;
-		//	}
-		//	return false;
-		//}
+		public async Task<bool> Delete(int? id)
+		{
+			var data = await _context.Departments.FirstOrDefaultAsync(c => c.Id== id);
+			if (data != null)
+			{
+				_context.Departments.Remove(data);
+				await _context.SaveChangesAsync();
+				return true;
+			}
+			return false;
+		}
 
-		//public async Task<DepartmentCreateVM> Get(int id)
-		//{
-		//	var data = await _context.Categories.FindAsync(id);
-		//	DepartmentCreateVM vm = new()
-		//	{
-		//		Name = data!.CName,
+		public async Task<DepartmentCreateVM> Get(int id)
+		{
+			var data = await _context.Departments.FindAsync(id);
+			DepartmentCreateVM vm = new()
+			{
+				Name = data!.Name
 
 
-		//	};
-		//	return vm;
-		//}
+			};
+			return vm;
+		}
 
-		//public async Task<List<Department>> GetAllAsync()
-		//{
-		//	return await _context.Categories.ToListAsync();
-		//}
+		public async Task<List<Department>> GetAllAsync()
+		{
+			return await _context.Departments.ToListAsync();
+		}
 
-		//public async Task<bool> Update(int? id, DepartmentCreateVM vm)
-		//{
-		//	var data = await _context.Categories.FirstOrDefaultAsync();
-		//	if (data != null)
-		//	{
-		//		data.CName = vm.Name;
-		//		await _context.SaveChangesAsync();
-		//		return true;
-		//	}
-		//	return false;
-		//}
+		public async Task<bool> Update(int? id, DepartmentCreateVM vm)
+		{
+			var data = await _context.Departments.FirstOrDefaultAsync();
+			if (data != null)
+			{
+				data.Name = vm.Name;
+				await _context.SaveChangesAsync();
+				return true;
+			}
+			return false;
+		}
 	}
 }

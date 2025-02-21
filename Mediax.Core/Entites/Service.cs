@@ -11,7 +11,7 @@ namespace Mediax.Core.Entites
 	{
 		public string Name { get; set; }   
 		
-		public Guid DepartmentId { get; set; } 
+		public int DepartmentId { get; set; } 
 		public Department Department { get; set; }
 	
 		public string IconUrl { get; set; } 

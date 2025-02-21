@@ -8,7 +8,7 @@ namespace Mediax.Core.Entites.Common
 {
 	public class BaseEntity
 	{
-		public Guid Id { get; set; } = Guid.NewGuid(); 
+		public int Id { get; set; } 
 		public bool IsDeleted { get; set; } = false; 
 		public DateTime CreatedTime { get; set; } = DateTime.Now;  
 	}

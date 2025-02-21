@@ -1,0 +1,41 @@
+﻿@using Mediax.BL.ViewModels.Doctor
+@model DoctorCreateVM
+
+<div class="container">
+    <h3>Update Doctor</h3>
+
+    <form asp-action="Update" asp-controller="Doctor" method="post" enctype="multipart/form-data">
+        <input type="hidden" asp-for="DoctorImage" />
+
+        <div class="mb-3">
+            <label asp-for="Name" class="form-label">Full Name</label>
+            <input asp-for="Name" class="form-control" />
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Specialization" class="form-label">Specialization</label>
+            <input asp-for="Specialization" class="form-control" />
+            <span asp-validation-for="Specialization" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="DepartmentId" class="form-label">Department</label>
+            <select asp-for="DepartmentId" asp-items="ViewBag.Departments" class="form-control">
+                <option value="">Select Department</option>
+            </select>
+            <span asp-validation-for="DepartmentId" class="text-danger"></span>
+        </div>
+
+
+
+        <div class="mb-3">
+            <label asp-for="CoverImage" class="form-label">New Profile Image (Optional)</label>
+            <input asp-for="CoverImage" type="file" class="form-control" />
+            <span asp-validation-for="CoverImage" class="text-danger"></span>
+        </div>
+
+        <button type="submit" class="btn btn-warning">Update</button>
+        <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+    </form>
+</div>

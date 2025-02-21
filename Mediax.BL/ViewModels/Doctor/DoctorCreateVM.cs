@@ -15,7 +15,7 @@ namespace Mediax.BL.ViewModels.Doctor
 		[MaxLength(32)]
 		public string? Specialization { get; set; }
 
-		public Guid DepartmentId { get; set; }
+		public int DepartmentId { get; set; }
 		public IFormFile? CoverImage { get; set; }
 		public string? DoctorImage { get; set; }
 	}

@@ -11,10 +11,10 @@ namespace Mediax.BL.Services.Abstracts
 {
 	public interface IDepartmentService
 	{
-		//Task<List<Department>> GetAllAsync();
-		//Task<bool> Create(DepartmentCreateVM vm);
-		//Task<bool> Update(int? id, DepartmentCreateVM vm);
-		//Task<bool> Delete(int? id);
-		//Task<DepartmentCreateVM> Get(int id);
+		Task<List<Department>> GetAllAsync();
+		Task<bool> Create(DepartmentCreateVM vm);
+		Task<bool> Update(int? id, DepartmentCreateVM vm);
+		Task<bool> Delete(int? id);
+		Task<DepartmentCreateVM> Get(int id);
 	}
 }

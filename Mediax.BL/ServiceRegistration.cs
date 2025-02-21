@@ -17,7 +17,7 @@ namespace Mediax.BL
 			services.AddScoped<ICategoryService, CategoryService>();
 			services.AddScoped<IDoctorService, DoctorService>();
 			services.AddScoped<IServiceService, ServiceService>();
-
+			services.AddScoped<IProductService, ProductService>();
 			return services;
 		}
 	}

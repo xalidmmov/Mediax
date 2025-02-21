@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Mediax.BL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a6819031d41fc2b3325de1179265fd187c037f1a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ce8548f287ebc6fcc4ae20d9251ec910942b5d75")]
 [assembly: System.Reflection.AssemblyProductAttribute("Mediax.BL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Mediax.BL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
