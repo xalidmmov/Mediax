@@ -87,5 +87,6 @@ namespace Mediax.MVC.Areas.Admin.Controllers
             return RedirectToAction(nameof(Index));
 
         }
+        
     }
 }

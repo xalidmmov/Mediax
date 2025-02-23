@@ -54,7 +54,7 @@ Product Area
                         </div>
                     </div>
                     <div class="product-content">
-                            <a href="shop-details.html" class="product-category">@product.CategoryName</a>
+                            <a asp-action="Details" asp-controller="Product" asp-route-id="@product.Id class="product-category">@product.CategoryName</a>
                             <h3 class="product-title"><a asp-action="Details" asp-controller="Product" asp-route-id="@product.Id">@product.Name</a></h3>
                             <p>
                                 <span class="text-danger">$@product.Price</span>

@@ -114,7 +114,18 @@ namespace Mediax.MVC.Controllers
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
+        public async Task<IActionResult> Team()
+        {
+            var doctors = await _doctorService.GetAllAsync();
+            var doctorVMs = doctors.Select(d => new DoctorVM
+            {
+                FullName = d.FullName,
+                Specialization = d.Specialization,
+                ImageUrl = d.ImageUrl
+            }).ToList();
 
+            return View(doctorVMs);
+        }
     }
 
 }

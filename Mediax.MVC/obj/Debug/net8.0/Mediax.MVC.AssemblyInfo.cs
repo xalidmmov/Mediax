@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Mediax.MVC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4935996aa02fa543a2e391905848630b4fc35cca")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+21578b18e5e1da3e4e9af6069ae6f75d175f451e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Mediax.MVC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Mediax.MVC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

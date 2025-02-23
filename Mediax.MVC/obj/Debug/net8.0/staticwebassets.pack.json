@@ -5,8 +5,20 @@
       "PackagePath": "staticwebassets\\Mediax.MVC.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.MVC\\wwwroot\\abouts\\imgs\\cvkljpr4.q1q.svg",
+      "PackagePath": "staticwebassets\\abouts\\imgs\\cvkljpr4.q1q.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.MVC\\wwwroot\\abouts\\imgs\\nkantjg1.mak.svg",
+      "PackagePath": "staticwebassets\\abouts\\imgs\\nkantjg1.mak.svg"
+    },
+    {
       "Id": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.MVC\\wwwroot\\abouts\\imgs\\qun3rh4d.ipo.png",
       "PackagePath": "staticwebassets\\abouts\\imgs\\qun3rh4d.ipo.png"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.MVC\\wwwroot\\abouts\\imgs\\zft03gaj.euh.svg",
+      "PackagePath": "staticwebassets\\abouts\\imgs\\zft03gaj.euh.svg"
     },
     {
       "Id": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.MVC\\wwwroot\\admin\\css\\sb-admin-2.css",
@@ -8957,6 +8969,10 @@
       "PackagePath": "staticwebassets\\doctors\\imgs\\34gzh3vv.xmn.png"
     },
     {
+      "Id": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.MVC\\wwwroot\\doctors\\imgs\\a2gda0kw.qqf.jpg",
+      "PackagePath": "staticwebassets\\doctors\\imgs\\a2gda0kw.qqf.jpg"
+    },
+    {
       "Id": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.MVC\\wwwroot\\doctors\\imgs\\jtbhjdc5.oms.png",
       "PackagePath": "staticwebassets\\doctors\\imgs\\jtbhjdc5.oms.png"
     },
@@ -8969,12 +8985,20 @@
       "PackagePath": "staticwebassets\\doctors\\imgs\\mkiyedmf.gro.png"
     },
     {
+      "Id": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.MVC\\wwwroot\\doctors\\imgs\\qsjhuj4f.3t0.jpg",
+      "PackagePath": "staticwebassets\\doctors\\imgs\\qsjhuj4f.3t0.jpg"
+    },
+    {
       "Id": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.MVC\\wwwroot\\doctors\\imgs\\rrux5vfj.xow.png",
       "PackagePath": "staticwebassets\\doctors\\imgs\\rrux5vfj.xow.png"
     },
     {
       "Id": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.MVC\\wwwroot\\doctors\\imgs\\wpq324vy.wr3.png",
       "PackagePath": "staticwebassets\\doctors\\imgs\\wpq324vy.wr3.png"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.MVC\\wwwroot\\doctors\\imgs\\zz0qnhen.53k.jpg",
+      "PackagePath": "staticwebassets\\doctors\\imgs\\zz0qnhen.53k.jpg"
     },
     {
       "Id": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.MVC\\wwwroot\\favicon.ico",
@@ -9217,8 +9241,20 @@
       "PackagePath": "staticwebassets\\products\\imgs\\dyenrhff.ope.png"
     },
     {
+      "Id": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.MVC\\wwwroot\\products\\imgs\\inxbra55.nii.jpg",
+      "PackagePath": "staticwebassets\\products\\imgs\\inxbra55.nii.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.MVC\\wwwroot\\products\\imgs\\jny1xnby.vas.jpg",
+      "PackagePath": "staticwebassets\\products\\imgs\\jny1xnby.vas.jpg"
+    },
+    {
       "Id": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.MVC\\wwwroot\\products\\imgs\\kys2bupu.som.png",
       "PackagePath": "staticwebassets\\products\\imgs\\kys2bupu.som.png"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.MVC\\wwwroot\\products\\imgs\\mkuin00i.uab.jpg",
+      "PackagePath": "staticwebassets\\products\\imgs\\mkuin00i.uab.jpg"
     },
     {
       "Id": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.MVC\\wwwroot\\products\\imgs\\tf2delqv.f0x.png",
@@ -9229,12 +9265,48 @@
       "PackagePath": "staticwebassets\\services\\imgs\\0gdubjve.vud.png"
     },
     {
+      "Id": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.MVC\\wwwroot\\services\\imgs\\2pbjev15.uei.svg",
+      "PackagePath": "staticwebassets\\services\\imgs\\2pbjev15.uei.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.MVC\\wwwroot\\services\\imgs\\aggcrvlg.w2y.svg",
+      "PackagePath": "staticwebassets\\services\\imgs\\aggcrvlg.w2y.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.MVC\\wwwroot\\services\\imgs\\dgr0a1iu.n5m.svg",
+      "PackagePath": "staticwebassets\\services\\imgs\\dgr0a1iu.n5m.svg"
+    },
+    {
       "Id": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.MVC\\wwwroot\\services\\imgs\\m0a0irzc.r5w.png",
       "PackagePath": "staticwebassets\\services\\imgs\\m0a0irzc.r5w.png"
     },
     {
+      "Id": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.MVC\\wwwroot\\services\\imgs\\mn0lbns5.gyb.svg",
+      "PackagePath": "staticwebassets\\services\\imgs\\mn0lbns5.gyb.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.MVC\\wwwroot\\services\\imgs\\o3snnetu.juo.svg",
+      "PackagePath": "staticwebassets\\services\\imgs\\o3snnetu.juo.svg"
+    },
+    {
       "Id": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.MVC\\wwwroot\\services\\imgs\\voxrdpga.vh3.png",
       "PackagePath": "staticwebassets\\services\\imgs\\voxrdpga.vh3.png"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.MVC\\wwwroot\\services\\imgs\\wtci34om.aqq.svg",
+      "PackagePath": "staticwebassets\\services\\imgs\\wtci34om.aqq.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.MVC\\wwwroot\\services\\imgs\\xwayaxks.ukg.svg",
+      "PackagePath": "staticwebassets\\services\\imgs\\xwayaxks.ukg.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.MVC\\wwwroot\\services\\imgs\\ybawe1gk.oaw.svg",
+      "PackagePath": "staticwebassets\\services\\imgs\\ybawe1gk.oaw.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.MVC\\wwwroot\\services\\imgs\\zdvqh42y.4ls.svg",
+      "PackagePath": "staticwebassets\\services\\imgs\\zdvqh42y.4ls.svg"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Mediax.MVC.Microsoft.AspNetCore.StaticWebAssets.props",
