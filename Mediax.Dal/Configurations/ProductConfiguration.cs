@@ -16,9 +16,17 @@ namespace Mediax.Dal.Configurations
 			builder.HasOne(x => x.Category)
 				   .WithMany(x => x.Products)
 				   .HasForeignKey(x => x.CategoryId);
-				  
 
-			builder.Property(x => x.Name).IsRequired().HasMaxLength(100);
+            builder.HasMany(p => p.Ratings)
+           .WithOne(r => r.Product)
+           .HasForeignKey(r => r.ProductId)
+           .OnDelete(DeleteBehavior.Cascade);
+
+            builder.HasMany(p => p.Comments)
+                .WithOne(c => c.Product)
+                .HasForeignKey(c => c.ProductId)
+                .OnDelete(DeleteBehavior.Cascade);
+            builder.Property(x => x.Name).IsRequired().HasMaxLength(100);
 			builder.Property(x => x.Description).HasMaxLength(500);
 			builder.Property(x => x.CostPrice).IsRequired().HasColumnType("decimal(18,2)");
 			builder.Property(x => x.Price).IsRequired().HasColumnType("decimal(18,2)");

@@ -18,7 +18,11 @@ namespace Mediax.BL
 			services.AddScoped<IDoctorService, DoctorService>();
 			services.AddScoped<IServiceService, ServiceService>();
 			services.AddScoped<IProductService, ProductService>();
-			return services;
+			services.AddScoped<IAboutFeatureService, AboutFeatureService>();
+            services.AddScoped<IProductDetailService, ProductDetailService>();
+            services.AddScoped<IRatingService, RatingService>();
+            services.AddScoped<ICommentService, CommentService>();
+            return services;
 		}
 	}
 }

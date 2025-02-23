@@ -4,11 +4,16 @@ using Mediax.BL.Services.Implements;
 using Mediax.BL.ViewModels.AboutFeature;
 using Mediax.BL.ViewModels.Category;
 using Mediax.Core.Entites;
+using Mediax.Core.Enums;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace Mediax.MVC.Areas.Admin.Controllers
 {
+    [Area("Admin")]
+   // [Authorize(Roles = nameof(Roles.Admin))]
+
     public class AboutFeatureController(IAboutFeatureService _service, IWebHostEnvironment env) : Controller
     {
         [HttpGet]

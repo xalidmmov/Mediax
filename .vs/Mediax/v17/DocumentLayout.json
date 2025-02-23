@@ -1,12 +1,326 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Asus\\source\\repos\\Mediax\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D1728401-68C4-416C-93BC-B9435CF1B361}|Mediax.MVC\\Mediax.MVC.csproj|c:\\users\\asus\\source\\repos\\mediax\\mediax.mvc\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D1728401-68C4-416C-93BC-B9435CF1B361}|Mediax.MVC\\Mediax.MVC.csproj|solutionrelative:mediax.mvc\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1728401-68C4-416C-93BC-B9435CF1B361}|Mediax.MVC\\Mediax.MVC.csproj|c:\\users\\asus\\source\\repos\\mediax\\mediax.mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D1728401-68C4-416C-93BC-B9435CF1B361}|Mediax.MVC\\Mediax.MVC.csproj|solutionrelative:mediax.mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1728401-68C4-416C-93BC-B9435CF1B361}|Mediax.MVC\\Mediax.MVC.csproj|c:\\users\\asus\\source\\repos\\mediax\\mediax.mvc\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D1728401-68C4-416C-93BC-B9435CF1B361}|Mediax.MVC\\Mediax.MVC.csproj|solutionrelative:mediax.mvc\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1728401-68C4-416C-93BC-B9435CF1B361}|Mediax.MVC\\Mediax.MVC.csproj|c:\\users\\asus\\source\\repos\\mediax\\mediax.mvc\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1728401-68C4-416C-93BC-B9435CF1B361}|Mediax.MVC\\Mediax.MVC.csproj|solutionrelative:mediax.mvc\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1728401-68C4-416C-93BC-B9435CF1B361}|Mediax.MVC\\Mediax.MVC.csproj|c:\\users\\asus\\source\\repos\\mediax\\mediax.mvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1728401-68C4-416C-93BC-B9435CF1B361}|Mediax.MVC\\Mediax.MVC.csproj|solutionrelative:mediax.mvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1728401-68C4-416C-93BC-B9435CF1B361}|Mediax.MVC\\Mediax.MVC.csproj|c:\\users\\asus\\source\\repos\\mediax\\mediax.mvc\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1728401-68C4-416C-93BC-B9435CF1B361}|Mediax.MVC\\Mediax.MVC.csproj|solutionrelative:mediax.mvc\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A722DA0A-6214-414A-BFA5-F4B769A813C3}|Mediax.BL\\Mediax.BL.csproj|c:\\users\\asus\\source\\repos\\mediax\\mediax.bl\\services\\implements\\commentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A722DA0A-6214-414A-BFA5-F4B769A813C3}|Mediax.BL\\Mediax.BL.csproj|solutionrelative:mediax.bl\\services\\implements\\commentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A722DA0A-6214-414A-BFA5-F4B769A813C3}|Mediax.BL\\Mediax.BL.csproj|c:\\users\\asus\\source\\repos\\mediax\\mediax.bl\\services\\abstracts\\iproductdetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A722DA0A-6214-414A-BFA5-F4B769A813C3}|Mediax.BL\\Mediax.BL.csproj|solutionrelative:mediax.bl\\services\\abstracts\\iproductdetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1728401-68C4-416C-93BC-B9435CF1B361}|Mediax.MVC\\Mediax.MVC.csproj|c:\\users\\asus\\source\\repos\\mediax\\mediax.mvc\\areas\\admin\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D1728401-68C4-416C-93BC-B9435CF1B361}|Mediax.MVC\\Mediax.MVC.csproj|solutionrelative:mediax.mvc\\areas\\admin\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1728401-68C4-416C-93BC-B9435CF1B361}|Mediax.MVC\\Mediax.MVC.csproj|c:\\users\\asus\\source\\repos\\mediax\\mediax.mvc\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D1728401-68C4-416C-93BC-B9435CF1B361}|Mediax.MVC\\Mediax.MVC.csproj|solutionrelative:mediax.mvc\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A722DA0A-6214-414A-BFA5-F4B769A813C3}|Mediax.BL\\Mediax.BL.csproj|c:\\users\\asus\\source\\repos\\mediax\\mediax.bl\\viewmodels\\product\\productvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A722DA0A-6214-414A-BFA5-F4B769A813C3}|Mediax.BL\\Mediax.BL.csproj|solutionrelative:mediax.bl\\viewmodels\\product\\productvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A722DA0A-6214-414A-BFA5-F4B769A813C3}|Mediax.BL\\Mediax.BL.csproj|c:\\users\\asus\\source\\repos\\mediax\\mediax.bl\\viewmodels\\product\\paginatedproductvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A722DA0A-6214-414A-BFA5-F4B769A813C3}|Mediax.BL\\Mediax.BL.csproj|solutionrelative:mediax.bl\\viewmodels\\product\\paginatedproductvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1728401-68C4-416C-93BC-B9435CF1B361}|Mediax.MVC\\Mediax.MVC.csproj|c:\\users\\asus\\source\\repos\\mediax\\mediax.mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1728401-68C4-416C-93BC-B9435CF1B361}|Mediax.MVC\\Mediax.MVC.csproj|solutionrelative:mediax.mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A112EBD-E3DD-4381-8115-69E34F112D96}|Mediax.Core\\Mediax.Core.csproj|c:\\users\\asus\\source\\repos\\mediax\\mediax.core\\entites\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A112EBD-E3DD-4381-8115-69E34F112D96}|Mediax.Core\\Mediax.Core.csproj|solutionrelative:mediax.core\\entites\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A112EBD-E3DD-4381-8115-69E34F112D96}|Mediax.Core\\Mediax.Core.csproj|c:\\users\\asus\\source\\repos\\mediax\\mediax.core\\entites\\rating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A112EBD-E3DD-4381-8115-69E34F112D96}|Mediax.Core\\Mediax.Core.csproj|solutionrelative:mediax.core\\entites\\rating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A722DA0A-6214-414A-BFA5-F4B769A813C3}|Mediax.BL\\Mediax.BL.csproj|c:\\users\\asus\\source\\repos\\mediax\\mediax.bl\\services\\implements\\productdetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A722DA0A-6214-414A-BFA5-F4B769A813C3}|Mediax.BL\\Mediax.BL.csproj|solutionrelative:mediax.bl\\services\\implements\\productdetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A722DA0A-6214-414A-BFA5-F4B769A813C3}|Mediax.BL\\Mediax.BL.csproj|c:\\users\\asus\\source\\repos\\mediax\\mediax.bl\\viewmodels\\product\\ratingvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A722DA0A-6214-414A-BFA5-F4B769A813C3}|Mediax.BL\\Mediax.BL.csproj|solutionrelative:mediax.bl\\viewmodels\\product\\ratingvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A722DA0A-6214-414A-BFA5-F4B769A813C3}|Mediax.BL\\Mediax.BL.csproj|c:\\users\\asus\\source\\repos\\mediax\\mediax.bl\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A722DA0A-6214-414A-BFA5-F4B769A813C3}|Mediax.BL\\Mediax.BL.csproj|solutionrelative:mediax.bl\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.MVC\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "Mediax.MVC\\Views\\Home\\About.cshtml",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.MVC\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "Mediax.MVC\\Views\\Home\\About.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABMAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-23T19:30:13.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.MVC\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Mediax.MVC\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.MVC\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Mediax.MVC\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAA8CAAAAAAAAAAAgwCMCAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-23T17:30:45.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.MVC\\Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "RelativeDocumentMoniker": "Mediax.MVC\\Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.MVC\\Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "RelativeToolTip": "Mediax.MVC\\Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-23T16:49:02.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.MVC\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Mediax.MVC\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.MVC\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Mediax.MVC\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAswBgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T16:48:56.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProductVM.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.BL\\ViewModels\\Product\\ProductVM.cs",
+              "RelativeDocumentMoniker": "Mediax.BL\\ViewModels\\Product\\ProductVM.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.BL\\ViewModels\\Product\\ProductVM.cs",
+              "RelativeToolTip": "Mediax.BL\\ViewModels\\Product\\ProductVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T16:36:59.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PaginatedProductVM.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.BL\\ViewModels\\Product\\PaginatedProductVM.cs",
+              "RelativeDocumentMoniker": "Mediax.BL\\ViewModels\\Product\\PaginatedProductVM.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.BL\\ViewModels\\Product\\PaginatedProductVM.cs",
+              "RelativeToolTip": "Mediax.BL\\ViewModels\\Product\\PaginatedProductVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T16:36:22.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.MVC\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Mediax.MVC\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.MVC\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Mediax.MVC\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAQwFkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T16:31:12.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.MVC\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "Mediax.MVC\\Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.MVC\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "Mediax.MVC\\Views\\Product\\Index.cshtml",
+              "ViewState": "AQIAACUAAAAAAAAAAAAgwDkAAACAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-23T16:33:39.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.MVC\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Mediax.MVC\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.MVC\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Mediax.MVC\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T16:30:57.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Comment.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.Core\\Entites\\Comment.cs",
+              "RelativeDocumentMoniker": "Mediax.Core\\Entites\\Comment.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.Core\\Entites\\Comment.cs",
+              "RelativeToolTip": "Mediax.Core\\Entites\\Comment.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T16:02:48.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.MVC\\Views\\Product\\Details.cshtml",
+              "RelativeDocumentMoniker": "Mediax.MVC\\Views\\Product\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.MVC\\Views\\Product\\Details.cshtml",
+              "RelativeToolTip": "Mediax.MVC\\Views\\Product\\Details.cshtml",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAgwE4AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-23T16:02:01.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.MVC\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Mediax.MVC\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.MVC\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Mediax.MVC\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAlwDgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T15:35:40.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RatingVM.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.BL\\ViewModels\\Product\\RatingVM.cs",
+              "RelativeDocumentMoniker": "Mediax.BL\\ViewModels\\Product\\RatingVM.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.BL\\ViewModels\\Product\\RatingVM.cs",
+              "RelativeToolTip": "Mediax.BL\\ViewModels\\Product\\RatingVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T15:34:51.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Rating.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.Core\\Entites\\Rating.cs",
+              "RelativeDocumentMoniker": "Mediax.Core\\Entites\\Rating.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.Core\\Entites\\Rating.cs",
+              "RelativeToolTip": "Mediax.Core\\Entites\\Rating.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T15:34:31.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ProductDetailService.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.BL\\Services\\Implements\\ProductDetailService.cs",
+              "RelativeDocumentMoniker": "Mediax.BL\\Services\\Implements\\ProductDetailService.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.BL\\Services\\Implements\\ProductDetailService.cs",
+              "RelativeToolTip": "Mediax.BL\\Services\\Implements\\ProductDetailService.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwBQAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T15:33:00.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IProductDetailService.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.BL\\Services\\Abstracts\\IProductDetailService.cs",
+              "RelativeDocumentMoniker": "Mediax.BL\\Services\\Abstracts\\IProductDetailService.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.BL\\Services\\Abstracts\\IProductDetailService.cs",
+              "RelativeToolTip": "Mediax.BL\\Services\\Abstracts\\IProductDetailService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAqwA0AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T15:32:44.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ServiceRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.BL\\ServiceRegistration.cs",
+              "RelativeDocumentMoniker": "Mediax.BL\\ServiceRegistration.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.BL\\ServiceRegistration.cs",
+              "RelativeToolTip": "Mediax.BL\\ServiceRegistration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T15:31:45.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CommentService.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.BL\\Services\\Implements\\CommentService.cs",
+              "RelativeDocumentMoniker": "Mediax.BL\\Services\\Implements\\CommentService.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.BL\\Services\\Implements\\CommentService.cs",
+              "RelativeToolTip": "Mediax.BL\\Services\\Implements\\CommentService.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACMAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T15:31:17.508Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

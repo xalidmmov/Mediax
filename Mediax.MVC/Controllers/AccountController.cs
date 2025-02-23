@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Mediax.BL.Extensions;
+using Mediax.Core.Enums;
 namespace Mediax.MVC.Controllers
 {
     public class AccountController(MediaxDbContext _context, RoleManager<IdentityRole> roleManager, UserManager<User> userManager, SignInManager<User> signInManager) : Controller
@@ -73,11 +74,17 @@ namespace Mediax.MVC.Controllers
                 ModelState.AddModelError("UserName", "Username or password is wrong");
             }
             User user = new()
-            {
+            { 
                 UserName = vm.UserName,
-                Email = vm.UserName
+                Email = vm.UserName,
+                FullName = vm.FullName,
             };
             await userManager.CreateAsync(user, vm.Password);
+            //var roleResult = await userManager.AddToRoleAsync(user, nameof(Roles.User));
+            //if (!roleResult.Succeeded)
+            //{
+            //    return View();
+            //}
             return RedirectToAction(nameof(Login));
 
         }

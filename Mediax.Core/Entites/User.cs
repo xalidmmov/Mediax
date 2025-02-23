@@ -10,6 +10,6 @@ namespace Mediax.Core.Entites
 	public class User:IdentityUser
 	{
         public string  FullName { get; set; }
-		public string ProfileImageUrl { get; set; }
+		public string? ProfileImageUrl { get; set; }
 	}
 }

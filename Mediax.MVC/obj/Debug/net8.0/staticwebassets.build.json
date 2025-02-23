@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+8cnT0wcILc9uZzcj84Ta4X8gPBp38NG2gJNj9UjcGk=",
+  "Hash": "Tcambh89TxyjzuyPz3MhbfhPbpvRbRPlZqZI0Eq0vQM=",
   "Source": "Mediax.MVC",
   "BasePath": "_content/Mediax.MVC",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.MVC\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Mediax.MVC.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.MVC\\wwwroot\\abouts\\imgs\\qun3rh4d.ipo.png",
+      "SourceId": "Mediax.MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.MVC\\wwwroot\\",
+      "BasePath": "_content/Mediax.MVC",
+      "RelativePath": "abouts/imgs/qun3rh4d.ipo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\abouts\\imgs\\qun3rh4d.ipo.png"
     },
     {
       "Identity": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.MVC\\wwwroot\\admin\\css\\sb-admin-2.css",

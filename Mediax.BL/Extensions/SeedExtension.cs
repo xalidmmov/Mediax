@@ -30,8 +30,9 @@ namespace Mediax.BL.Extensions
                 {
                     User Admin = new User
                     {
+                        FullName = "Admin",
                         UserName = "Admin",
-                        Email = "Admin"
+                        Email = "admin@gmail.com",
 
                     };
                     await userManager.CreateAsync(Admin, "Admin123.");

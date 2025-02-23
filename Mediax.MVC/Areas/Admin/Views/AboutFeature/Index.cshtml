@@ -1,5 +1,55 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
+﻿@using Mediax.Core.Entites
+@model List<AboutFeature>
+
+<div class="container">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <h3>Features List</h3>
+        <a class="btn btn-primary" asp-action="Create" asp-controller="AboutFeature">Create New AboutFeature</a>
+    </div>
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Image</th>
+                <th>Title</th>
+                
+                <th>Description</th>
+                <th>Created Time</th>
+                <th colspan="2">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model != null && Model.Any())
+            {
+                int count = 1;
+                @foreach (var about in Model)
+                {
+                    <tr>
+                        <td>@count</td>
+                        <td>
+                            <img width="60px" height="60px" src="~/abouts/imgs/@about.IconUrl" alt="AboutFeature Image" />
+                        </td>
+                        <td>@about.Title</td>
+                        <td>@about.Description</td>
+                        <td>@about.CreatedTime.ToString("dd-MM-yyyy HH:mm")</td>
+                        <td>
+                            <a class="btn btn-warning" asp-action="Update" asp-route-id="@about.Id">Edit</a>
+                        </td>
+                        <td>
+                            <a class="btn btn-danger" asp-action="Delete" asp-route-id="@about.Id"
+                               onclick="return confirm('Are you sure you want to delete this feature?');">Delete</a>
+                        </td>
+                    </tr>
+                    count++;
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="7" class="text-center">No Feature found.</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

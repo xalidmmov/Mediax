@@ -249,8 +249,8 @@
                             <li class="menu-item-has-children">
                                 <a href="#">Shop</a>
                                 <ul class="sub-menu">
-                                    <li><a href="shop.html">Shop</a></li>
-                                    <li><a href="shop-details.html">Shop Details</a></li>
+                                    <li><a asp-action="Index" asp-controller="Product">Shop</a></li>
+                                    <li><a asp-action="Details" asp-controller="Product">Shop Details</a></li>
                                     <li><a href="cart.html">Cart Page</a></li>
                                     <li><a href="checkout.html">Checkout</a></li>
                                     <li><a href="wishlist.html">Wishlist</a></li>
@@ -296,7 +296,7 @@
                         <div class="col-auto d-none d-lg-inline-block">
                             <nav class="main-menu d-none d-lg-inline-block">
                                 <ul>
-                                    <li class="menu-item-has-children">
+                                    <li >
                                         <a asp-action="Index"asp-controller="Home">Home</a>
                                         
                                     </li>
@@ -313,28 +313,22 @@
                                             <li class="menu-item-has-children">
                                                 <a href="#">Shop</a>
                                                 <ul class="sub-menu">
-                                                    <li><a href="shop.html">Shop</a></li>
-                                                    <li><a href="shop-details.html">Shop Details</a></li>
+                                                    <li><a asp-action="Index" asp-controller="Product">Shop</a></li>
+                                                    <li><a asp-action="Details" asp-controller="Product">Shop Details</a></li>
                                                     <li><a href="cart.html">Cart Page</a></li>
                                                     <li><a href="checkout.html">Checkout</a></li>
                                                     <li><a href="wishlist.html">Wishlist</a></li>
                                                 </ul>
                                             </li>
                                             <li><a href="team.html">Team</a></li>
-                                            <li><a href="team-details.html">Team Details</a></li>
-                                            <li><a href="appointment.html">Appointments</a></li>
-                                            <li><a href="faq.html">Faq Page</a></li>
-                                            <li><a href="pricing.html">Pricing Plan</a></li>
+                                           
+                                           
+                                           
+                                           
                                             <li><a href="error.html">Error Page</a></li>
                                         </ul>
                                     </li>
-                                    <li class="menu-item-has-children">
-                                        <a href="#">Blog</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="blog.html">Blog</a></li>
-                                            <li><a href="blog-details.html">Blog Details</a></li>
-                                        </ul>
-                                    </li>
+                                   
                                     <li>
                                         <a asp-controller="Home" asp-action="Contact">Contact</a>
                                     </li>
@@ -349,8 +343,17 @@
                                     <i class="far fa-cart-shopping"></i>
                                 </button>
                                 <a href="appointment.html" class="th-btn">Appointment Now</a>
-                                <button type="button" class="icon-btn sideMenuInfo d-none d-xl-inline-block"><i class="far fa-bars"></i></button>
-                                <button type="button" class="th-menu-toggle d-block d-lg-none"><i class="far fa-bars"></i></button>
+                               @*  <button type="button" class="icon-btn sideMenuInfo d-none d-xl-inline-block"><i class="far fa-bars"></i></button> *@
+                                @if (User.Identity!.IsAuthenticated)
+                                {
+                                    <li class="main-button"><a asp-action="LogOut" asp-controller="Account">LogOut</a></li>
+                                }
+                                else
+                                {
+                                    <li class="main-button"><a asp-action="Login" asp-controller="Account">Sign In</a></li>
+
+                                }
+@*                                 <button type="button" class="th-menu-toggle d-block d-lg-none"><i class="far fa-bars"></i></button> *@
                             </div>
                         </div>
                     </div>

@@ -18,5 +18,7 @@ namespace Mediax.Core.Entites
 		public int StockQuantity { get; set; }  
 		public int CategoryId { get; set; }
 		public Category? Category { get; set; }
-	}
+        public IEnumerable<Rating> Ratings { get; set; } = new List<Rating>();
+        public IEnumerable<Comment> Comments { get; set; } = new List<Comment>();
+    }
 }

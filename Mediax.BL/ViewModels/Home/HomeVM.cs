@@ -1,4 +1,5 @@
-﻿using Mediax.BL.ViewModels.Doctor;
+﻿using Mediax.BL.ViewModels.Apointment;
+using Mediax.BL.ViewModels.Doctor;
 using Mediax.BL.ViewModels.Service;
 using System;
 using System.Collections.Generic;
@@ -12,5 +13,6 @@ namespace Mediax.BL.ViewModels.Home
     {
         public List<ServiceVm> Services { get; set; } = new();
         public List<DoctorVM> Doctors { get; set; } = new();
+        public AppointmentVM Appointment { get; set; } = new();
     }
 }

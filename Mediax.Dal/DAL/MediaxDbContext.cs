@@ -20,7 +20,10 @@ namespace Mediax.Dal.DAL
 		public DbSet<Category> Categories { get; set; }
 		public DbSet<Product> Products { get; set; }
 		public DbSet<AboutFeature> AboutFeatures { get; set; }
-		public MediaxDbContext(DbContextOptions options) : base(options)
+		public DbSet<Apointment> Apointsments { get; set; }
+        public DbSet<Rating> Ratings { get; set; }
+        public DbSet<Comment> Comments { get; set; }
+        public MediaxDbContext(DbContextOptions options) : base(options)
 		{
 		}
 		protected override void OnModelCreating(ModelBuilder modelBuilder)
