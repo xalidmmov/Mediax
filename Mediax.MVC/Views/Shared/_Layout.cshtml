@@ -56,6 +56,7 @@
     <link rel="stylesheet" href="~/assets/css/style.css">
 
 </head>
+@await RenderSectionAsync("styles", false);
 
 <body>
 
@@ -498,6 +499,8 @@
         All Js File
     ============================== -->
     <!-- Jquery -->
+   <!-- Jquery -->
+    <!-- Jquery -->
     <script src="~/assets/js/vendor/jquery-3.7.1.min.js"></script>
     <!-- Swiper Js -->
     <script src="~/assets/js/swiper-bundle.min.js"></script>
@@ -517,6 +520,8 @@
 
     <!-- Main Js File -->
     <script src="~/assets/js/main.js"></script>
+    @RenderSectionAsync("scripts", false)
+
 </body>
 
 </html>

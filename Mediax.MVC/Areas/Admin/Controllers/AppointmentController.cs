@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore;
 namespace Mediax.MVC.Areas.Admin.Controllers
 {
     [Area("Admin")]
-   // [Authorize(Roles = nameof(Roles.Admin))]
+    [Authorize(Roles = nameof(Roles.Admin))]
 
     public class AppointmentController(MediaxDbContext _context) : Controller
     {

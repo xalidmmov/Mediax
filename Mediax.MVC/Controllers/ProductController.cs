@@ -1,8 +1,9 @@
 ﻿using Mediax.BL.Services.Abstracts;
 using Mediax.BL.Services.Implements;
+using Mediax.BL.ViewModels.Basket;
 using Mediax.BL.ViewModels.Product;
 using Microsoft.AspNetCore.Mvc;
-
+using System.Text.Json;
 namespace Mediax.MVC.Controllers
 {
     public class ProductController(IProductService _productService, IProductDetailService _productDetailService) : Controller
@@ -59,6 +60,22 @@ namespace Mediax.MVC.Controllers
             if (!success) return BadRequest("Comment cannot be empty.");
 
             return RedirectToAction("Details", new { id = productId });
+        }
+        public async Task<IActionResult> AddBasket(int id)
+        {
+            //if (!await _context.Products.AnyAsync(x => x.Id == id))
+            //    return NotFound();
+            var basketItems = JsonSerializer.Deserialize<List<BasketProductItemVM>>(Request.Cookies["basket"] ?? "[]");
+            var item = basketItems.FirstOrDefault(x => x.Id == id);
+            if (item == null)
+            {
+                item = new BasketProductItemVM(id);
+
+                basketItems.Add(item);
+            }
+            item.Count++;
+            Response.Cookies.Append("basket", JsonSerializer.Serialize(basketItems));
+            return Ok();
         }
 
 

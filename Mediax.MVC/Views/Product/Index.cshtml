@@ -3,6 +3,7 @@
 
 
 
+
 <div class="breadcumb-wrapper " data-bg-src="assets/img/bg/breadcumb-bg.jpg">
     <div class="container">
         <div class="breadcumb-content">
@@ -46,12 +47,12 @@ Product Area
                     <div class="th-product product-grid">
                     <div class="product-img">
                             <img src="~/products/imgs/@product.ImageUrl" class="card-img-top" alt="@product.Name">
-                       
-                        <div class="actions">
-                            <a href="#QuickView" class="icon-btn popup-content"><i class="far fa-eye"></i></a>
-                            <a href="cart.html" class="icon-btn"><i class="far fa-cart-plus"></i></a>
-                            <a href="wishlist.html" class="icon-btn"><i class="far fa-heart"></i></a>
-                        </div>
+
+                            <div class="actions">
+                                <a href="#QuickView" class="icon-btn popup-content"><i class="far fa-eye"></i></a>
+                                <button class="icon-btn add-cart" prod-id="@product.Id"><i class="far fa-cart-plus"></i></button>
+                                <a href="wishlist.html" class="icon-btn"><i class="far fa-heart"></i></a>
+                            </div>
                     </div>
                     <div class="product-content">
                             <a asp-action="Details" asp-controller="Product" asp-route-id="@product.Id class="product-category">@product.CategoryName</a>
@@ -101,3 +102,35 @@ Product Area
         }
     </div>
 </section>
+
+
+@section scripts {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js" integrity="sha512-VEd+nq25CkR676O+pLBnDW09R7VQX9Mdiij052gVCp5yVH3jGtH70Ho/UUv4mJDsEdTvqRCFZg0NKGiojGnUCw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        $('.add-cart').click(function () {
+            fetch('/Product/AddBasket/' + $(this).attr('prod-id')).then(x => {
+                if (x.ok) {
+                    Command: toastr["success"]("Mehsul sebete elave olundu")
+                    console.log("salam")
+                    // toastr.options = {
+                    //     "closeButton": false,
+                    //     "debug": false,
+                    //     "newestOnTop": false,
+                    //     "progressBar": false,
+                    //     "positionClass": "toast-top-right",
+                    //     "preventDuplicates": false,
+                    //     "onclick": null,
+                    //     "showDuration": "300",
+                    //     "hideDuration": "1000",
+                    //     "timeOut": "3000",
+                    //     "extendedTimeOut": "1000",
+                    //     "showEasing": "swing",
+                    //     "hideEasing": "linear",
+                    //     "showMethod": "fadeIn",
+                    //     "hideMethod": "fadeOut"
+                    }
+                }
+            })
+        })
+    </script>
+}

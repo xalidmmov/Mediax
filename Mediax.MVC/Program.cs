@@ -1,4 +1,5 @@
 using Mediax.BL;
+using Mediax.BL.Extensions;
 using Mediax.Core.Entites;
 using Mediax.Dal.DAL;
 using Microsoft.AspNetCore.Identity;
@@ -32,6 +33,7 @@ namespace Mediax.MVC
 				// The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
 				app.UseHsts();
 			}
+			app.UseUserSeed();
 
 			app.UseHttpsRedirection();
 			app.UseStaticFiles();

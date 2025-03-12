@@ -12,7 +12,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 namespace Mediax.MVC.Areas.Admin.Controllers
 {
     [Area("Admin")]
- //  [Authorize(Roles = nameof(Roles.Admin))]
+    [Authorize(Roles = nameof(Roles.Admin))]
     public class DoctorController (IDoctorService _service,IDepartmentService departmentService,IWebHostEnvironment env): Controller
     {
         public async Task<IActionResult> Index()
