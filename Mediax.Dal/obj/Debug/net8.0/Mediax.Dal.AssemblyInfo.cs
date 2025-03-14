@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Mediax.Dal")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4935996aa02fa543a2e391905848630b4fc35cca")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1a96c8dccf21bcf2e8e4c7db1a47838aa794dd78")]
 [assembly: System.Reflection.AssemblyProductAttribute("Mediax.Dal")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Mediax.Dal")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

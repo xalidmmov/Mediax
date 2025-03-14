@@ -7685,6 +7685,10 @@
       "PackagePath": "staticwebassets\\assets\\img\\bg\\service_card_bg.png"
     },
     {
+      "Id": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.MVC\\wwwroot\\assets\\img\\bg\\shopimg.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\shopimg.jpg"
+    },
+    {
       "Id": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.MVC\\wwwroot\\assets\\img\\bg\\team_bg_1.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\bg\\team_bg_1.jpg"
     },
@@ -8243,6 +8247,18 @@
     {
       "Id": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.MVC\\wwwroot\\assets\\img\\logo.svg",
       "PackagePath": "staticwebassets\\assets\\img\\logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.MVC\\wwwroot\\assets\\img\\normal\\DoctorSekli.jpeg",
+      "PackagePath": "staticwebassets\\assets\\img\\normal\\DoctorSekli.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.MVC\\wwwroot\\assets\\img\\normal\\DoctorSekli2.avif",
+      "PackagePath": "staticwebassets\\assets\\img\\normal\\DoctorSekli2.avif"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.MVC\\wwwroot\\assets\\img\\normal\\DoctorSekli3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\normal\\DoctorSekli3.jpg"
     },
     {
       "Id": "C:\\Users\\Asus\\source\\repos\\Mediax\\Mediax.MVC\\wwwroot\\assets\\img\\normal\\about_1_1.png",

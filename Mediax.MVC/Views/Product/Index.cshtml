@@ -4,7 +4,7 @@
 
 
 
-<div class="breadcumb-wrapper " data-bg-src="assets/img/bg/breadcumb-bg.jpg">
+<div class="breadcumb-wrapper " data-bg-src="assets/img/bg/shopimg.jpg">
     <div class="container">
         <div class="breadcumb-content">
             <h1 class="breadcumb-title">Shop</h1>
@@ -50,7 +50,7 @@ Product Area
 
                             <div class="actions">
                                 <a href="#QuickView" class="icon-btn popup-content"><i class="far fa-eye"></i></a>
-                                <button class="icon-btn add-cart" prod-id="@product.Id"><i class="far fa-cart-plus"></i></button>
+                                <button  class="icon-btn  add-cart" prod-id="@product.Id"><i class="far fa-cart-plus"></i></button>
                                 <a href="wishlist.html" class="icon-btn"><i class="far fa-heart"></i></a>
                             </div>
                     </div>
@@ -111,23 +111,22 @@ Product Area
             fetch('/Product/AddBasket/' + $(this).attr('prod-id')).then(x => {
                 if (x.ok) {
                     Command: toastr["success"]("Mehsul sebete elave olundu")
-                    console.log("salam")
-                    // toastr.options = {
-                    //     "closeButton": false,
-                    //     "debug": false,
-                    //     "newestOnTop": false,
-                    //     "progressBar": false,
-                    //     "positionClass": "toast-top-right",
-                    //     "preventDuplicates": false,
-                    //     "onclick": null,
-                    //     "showDuration": "300",
-                    //     "hideDuration": "1000",
-                    //     "timeOut": "3000",
-                    //     "extendedTimeOut": "1000",
-                    //     "showEasing": "swing",
-                    //     "hideEasing": "linear",
-                    //     "showMethod": "fadeIn",
-                    //     "hideMethod": "fadeOut"
+                    toastr.options = {
+                        "closebutton": false,
+                        "debug": false,
+                        "newestontop": false,
+                        "progressbar": false,
+                        "positionclass": "toast-top-right",
+                        "preventduplicates": false,
+                        "onclick": null,
+                        "showduration": "300",
+                        "hideduration": "1000",
+                        "timeout": "3000",
+                        "extendedtimeout": "1000",
+                        "showeasing": "swing",
+                        "hideeasing": "linear",
+                        "showmethod": "fadein",
+                        "hidemethod": "fadeout"
                     }
                 }
             })
